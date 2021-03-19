@@ -6,19 +6,6 @@
   options:
     url: https://github.com/freefq/free
 - type: webfuzzsub
-- type: webfuzzsub
-  options:
-    url: https://github.com/wishcaiji/sublist/blob/main/suburl.txt
-- type: webfuzzsub
-  options:
-    url: https://github.com/oouxx/fqsub/blob/7f35b272888341f207acc10c92f1eb0be431e0e3/sub.list
-- type: webfuzzsub
-  options:
-    url: http://proxypool.turinglabs.net/
-- type: webfuzzsub
-  options:
-    url: https://attachments-cdn.shimo.im/KTVdWd7ipTJtGqaa.txt
-- type: webfuzzsub
   options:
     url: https://uploader.shimo.im/f/w4fhn48OhKfxIcsA.txt?attname=tt.txt
 - type: webfuzzsub
@@ -27,15 +14,6 @@
 - type: webfuzzsub
   options:
     url: https://wechoice.ml/main.html
-- type: webfuzzsub
-  options:
-    url: https://github.com/oouxx/fqsub/blob/a89bfb7a1a4633d4952d46470dda8c851f2e15cf/sub.list
-- type: webfuzzsub
-  options:
-    url: https://github.com/Alex950808/proxypool038/blob/ef5c730a505ba9115f6be84f5df37b66264d66bc/config/source.yaml
-- type: webfuzzsub
-  options:
-    url: https://github.com/lin1986lin/test1/blob/684c35acbb348eb36a9b991a0f703f00abf59622/source.yaml
 - type: webfuzzsub
   options:
     url: https://i.sqeven.me/q/detail/100
@@ -58,18 +36,6 @@
 - type: subscribe
   options:
     url: https://gitea.com/proxypools/sub/raw/branch/main/clash/clashr.yaml
-- type: subscribe
-  options:
-    url: https://gitea.com/proxypools/sub/raw/branch/main/qx/qx.yaml
-- type: subscribe
-  options:
-    url: https://gitea.com/proxypools/sub/raw/branch/main/qx/q.yaml
-- type: subscribe
-  options:
-    url: https://gitea.com/proxypools/sub/raw/branch/main/loon/loon.yaml
-- type: subscribe
-  options:
-    url: https://gitea.com/proxypools/sub/raw/branch/main/sb/sb.yaml
 - type: subscribe
   options:
     url: https://gitea.com/proxypools/sub/raw/branch/main/ss/ss.txt
@@ -95,31 +61,10 @@
     url: https://github.com/JACKUSR2089/v2ray-subscribed
 - type: webfuzz
   options:
-    url: https://github.com/umelabs/node.umelabs.dev
-- type: webfuzz
-  options:
-    url: https://github.com/freefq/free
-- type: webfuzz
-  options:
-    url: https://github.com/iwxf/free-v2ray/blob/master/README.md
-- type: webfuzz
-  options:
-    url: https://github.com/hugetiny/awesome-vpn/blob/master/READMECN.md
-- type: webfuzz
-  options:
-    url: https://merlinblog.xyz/wiki/freess.html
-- type: webfuzz
-  options:
-    url: https://zfjvpn.gitbook.io/123/
-- type: webfuzz
-  options:
     url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ss/ss.txt
 - type: webfuzz
   options:
     url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ssr/ssr.txt
-- type: webfuzz
-  options:
-    url: https://raw.githubusercontent.com/freefq/free/master/README.md
 
 # tg频道抓取
 - type: tgchannel
@@ -141,42 +86,6 @@
 - type: tgchannel
   options:
     channel: FreeSSRNode
-    num: 200
-- type: tgchannel
-  options:
-    channel: V2List
-    num: 200
-- type: tgchannel
-  options:
-    channel: SuperFastProxy
-    num: 200
-- type: tgchannel
-  options:
-    channel: ssrtool
-    num: 200
-- type: tgchannel
-  options:
-    channel: freeshadowsock
-    num: 200
-- type: tgchannel
-  options:
-    channel: jiedianfenxiang
-    num: 200
-- type: tgchannel
-  options:
-    channel: fanqiang666
-    num: 200
-- type: tgchannel
-  options:
-    channel: ssrtool_crack
-    num: 200
-- type: tgchannel
-  options:
-    channel: ssrshares
-    num: 200
-- type: tgchannel
-  options:
-    channel: gongyijichangfenxiang
     num: 200
 - type: tgchannel
   options:
@@ -234,22 +143,6 @@
   options:
     channel: fanqiang666
     num: 200
-- type: tgchannel
-  options:
-    channel: jiedianfenxiang
-    num: 200
-- type: tgchannel
-  options:
-    channel: freeshadowsock
-    num: 200
-- type: tgchannel
-  options:
-    channel: QuantXSSR
-    num: 200
-- type: tgchannel
-  options:
-    channel: huhihuhihi
-    num: 2000
 - type: tgchannel
   options:
     channel: Ch_baipiao
