@@ -1,6 +1,9 @@
 # 模糊抓取订阅链接
 - type: webfuzzsub
   options:
+    url: https://raw.githubusercontent.com/du5/free/master/sub.list
+- type: webfuzzsub
+  options:
     url: https://github.com/freefq/free
 - type: webfuzzsub
 - type: webfuzzsub
@@ -60,6 +63,9 @@
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 - type: subscribe
   options:
+    url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
+- type: subscribe
+  options:
     url: https://iwxf.netlify.app/
 - type: subscribe
   options:
@@ -90,6 +96,9 @@
     url: https://gitea.com/proxypools/sub/raw/branch/main/ss/ss.txt
 
 # 网页模糊抓取
+- type: webfuzz
+  options:
+    url: https://merlinblog.xyz/wiki/freess.html
 - type: webfuzz
   options:
     url: https://i.sqeven.me/discuss/detail/100
@@ -164,6 +173,10 @@
     url: https://lanrenl.github.io/2020/06/03/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 
 # tg频道抓取
+- type: tgchannel
+  options:
+    channel: ssrList
+    num: 200
 - type: tgchannel
   options:
     channel: ssrList
@@ -347,6 +360,9 @@
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
+    url: https://fanqiangdang.com/forum-48-1.html
+- type: web-fanqiangdang
+  options:
     url: https://fanqiangdang.com/forum.php?mod=rss&fid=50&auth=0
 - type: web-fanqiangdang
   options:
@@ -360,8 +376,15 @@
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum.php?mod=rss&fid=48&auth=0
+    
+# clash格式订阅链接
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml
 
 # 某个网站抓取
+- type: web-freessrxyz
+  options:
 - type: web-freessrxyz
   options:
     url: https://lightyearapp.life/zh/free-vpn
