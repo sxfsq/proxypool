@@ -5,18 +5,7 @@
 - type: webfuzzsub
   options:
     url: https://github.com/freefq/free
-- type: webfuzzsub
-  options:
-    url: https://uploader.shimo.im/f/w4fhn48OhKfxIcsA.txt?attname=tt.txt
-- type: webfuzzsub
-  options:
-    url: https://github.com/pojiezhiyuanjun/freev2
-- type: webfuzzsub
-  options:
-    url: https://wechoice.ml/main.html
-- type: webfuzzsub
-  options:
-    url: https://i.sqeven.me/q/detail/100
+
 # 订阅链接
 - type: subscribe
   options:
@@ -24,9 +13,6 @@
 - type: subscribe
   options:
     url: https://iwxf.netlify.app/
-- type: subscribe
-  options:
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
 - type: subscribe
   options:
     url: https://gitea.com/proxypools/sub/raw/branch/main/clash/clash.yaml
@@ -55,12 +41,6 @@
     url: https://github.com/freefq/free
 - type: webfuzz
   options:
-    url: https://github.com/JACKUSR2089/v2ray-subscribed
-- type: webfuzz
-  options:
-    url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ss/ss.txt
-- type: webfuzz
-  options:
     url: https://raw.githubusercontent.com/ruanfei/ShadowsocksRRShare/master/ssr/ssr.txt
 
 # tg频道抓取
@@ -71,18 +51,6 @@
 - type: tgchannel
   options:
     channel: aifenxiang2020
-    num: 200
-- type: tgchannel
-  options:
-    channel: sharecentre
-    num: 200
-- type: tgchannel
-  options:
-    channel: SSRSUB
-    num: 200
-- type: tgchannel
-  options:
-    channel: FreeSSRNode
     num: 200
 - type: tgchannel
   options:
@@ -100,9 +68,6 @@
   options:
     channel: VPNFolder
     num: 200
-- type: tgchannel
-  options:
-    channel: baipiaofuli
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
@@ -114,15 +79,6 @@
 - type: web-fanqiangdang
   options:
     url: https://fanqiangdang.com/forum.php?mod=rss&fid=36&auth=0
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum.php?mod=rss&fid=2&auth=0
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum.php?mod=rss&fid=51&auth=0
-- type: web-fanqiangdang
-  options:
-    url: https://fanqiangdang.com/forum.php?mod=rss&fid=48&auth=0
     
 # clash格式订阅链接
 - type: clash
