@@ -19,6 +19,9 @@
 - type: subscribe
   options:
     url: https://gitea.com/proxypools/sub/raw/branch/main/clash/clash.yaml
+- type: subscribe
+  options:
+    url: https://gitea.com/proxypools/sub/raw/branch/main/ss/ss.txt
 
 # 网页模糊抓取
 - type: webfuzz
@@ -33,10 +36,6 @@
 - type: tgchannel
   options:
     channel: ssrtool_crack
-    num: 200
-- type: tgchannel
-  options:
-    channel: ssrv2taytgshare
     num: 200
 - type: tgchannel
   options:
