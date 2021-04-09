@@ -8,6 +8,9 @@
 - type: webfuzzsub
   options:
     url: https://wechoice.ml/main.html
+- type: webfuzzsub
+  options:
+    url: https://github.com/freefq/free
 
 # 订阅链接
 - type: subscribe
