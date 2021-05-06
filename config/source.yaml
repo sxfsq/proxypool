@@ -14,6 +14,12 @@
 - type: webfuzzsub
   options:
     url: https://www.linbaoz.com/
+- type: webfuzzsub
+  options:
+    url: https://github.com/webdao/v2ray
+- type: webfuzzsub
+  options: 
+    url: https://github.com/colatiger/v2ray-nodes
 
 # 订阅链接
 - type: subscribe
@@ -36,6 +42,9 @@
 - type: webfuzz
   options:
     url: https://github.com/yuanxiaozha/proxy-node
+- type: webfuzz
+  options:
+    url: https://github.com/gelangtai/freessr
 # tg频道抓取
 - type: tgchannel
   options:
